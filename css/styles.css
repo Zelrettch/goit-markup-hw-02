@@ -1,0 +1,114 @@
+.page {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+    color: currentColor;
+}
+
+.list {
+    list-style-type: none;
+}
+
+/* Logo font */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    size: 18px;
+    line-height: 1.166;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+/* Header 1 font */
+.page-header {
+    font-weight: 700;
+    size: 56px;
+    line-height: 1.071;
+    letter-spacing: 1.12px;
+}
+
+/* Header 2 font */
+.section-header {
+    font-weight: 700;
+    size: 36px;
+    letter-spacing: 0.72px;
+}
+
+/* Header 3 font */
+.element-header {
+    font-weight: 500;
+    size: 20px;
+    letter-spacing: 0.4px;
+}
+
+/* Body font */
+.contacts .list,
+.content,
+.footer {
+    size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/* Body medium font */
+.navigation .list {
+    font-weight: 500;
+    size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/* Button font */
+.order-button {
+    font-weight: 500;
+    size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+
+.logo {
+    color: #4D5AE5;
+}
+
+.header .logo .accent {
+    color: #2E2F42
+}
+
+.header .list .link:hover,
+.header .list .link:focus {
+    color: #404BBF;
+}
+
+.main-section {
+    background-color: #2E2F42;
+    color: #ffffff
+}
+
+.order-button {
+    background-color: #4D5AE5;
+    color: currentColor;
+    cursor: pointer;
+}
+
+.order-button:hover,
+.order-button:focus {
+    background-color: #404BBF;
+}
+
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.footer .logo .accent {
+    color: #F4F4FD
+}
+
