@@ -35,9 +35,9 @@
 /* Header 1 font */
 .page-header {
     font-weight: 700;
-    size: 56px;
-    line-height: 1.071;
-    letter-spacing: 1.12px;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.0.em;
 }
 
 /* Header 2 font */
@@ -51,8 +51,9 @@
 /* Header 3 font */
 .element-header {
     font-weight: 500;
-    size: 20px;
-    letter-spacing: 0.4px;
+    font-size: 20px;
+    line-height: 1.3;
+    letter-spacing: 0.2em;
     color: #2E2F42;
 }
 
@@ -93,8 +94,8 @@
     cursor: pointer;
 }
 
-.order-button:hover,
-.order-button:focus {
+.title-section .button:hover,
+.title-section .button:focus {
     background-color: #404BBF;
 }
 
