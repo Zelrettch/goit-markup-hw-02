@@ -1,12 +1,19 @@
 .page {
     font-family: "Roboto", sans-serif;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #ffffff;
+    size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 
 .link {
-    text-decoration: none;
-    font-style: normal;
+    text-decoration: none;    
     color: currentColor;
+}
+
+.contacts {
+    font-style: normal;
 }
 
 .list {
@@ -17,10 +24,11 @@
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    size: 18px;
-    line-height: 1.166;
-    letter-spacing: 0.54px;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4D5AE5;
 }
 
 /* Header 1 font */
@@ -36,6 +44,7 @@
     font-weight: 700;
     size: 36px;
     letter-spacing: 0.72px;
+    color: #2E2F42;
 }
 
 /* Header 3 font */
@@ -43,36 +52,19 @@
     font-weight: 500;
     size: 20px;
     letter-spacing: 0.4px;
-}
-
-/* Body font */
-.contacts .list,
-.content,
-.footer {
-    size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-}
-
-/* Body medium font */
-.navigation .list {
-    font-weight: 500;
-    size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
+    color: #2E2F42;
 }
 
 /* Button font */
-.order-button {
+.button {
     font-weight: 500;
     size: 16px;
     line-height: 1.5;
     letter-spacing: 0.64px;
 }
 
-.logo {
-    color: #4D5AE5;
-}
+
+/* Header styles */
 
 .header .logo .accent {
     color: #2E2F42
@@ -83,12 +75,18 @@
     color: #404BBF;
 }
 
-.main-section {
+.navigation {
+    font-weight: 500;
+    color: #2E2F42;
+}
+
+/* Main block styles */
+.title-section {
     background-color: #2E2F42;
     color: #ffffff
 }
 
-.order-button {
+.title-section .button {
     background-color: #4D5AE5;
     color: currentColor;
     cursor: pointer;
@@ -103,6 +101,7 @@
     background-color: #F4F4FD;
 }
 
+/* Footer styles */
 .footer {
     background-color: #2E2F42;
     color: #F4F4FD;
