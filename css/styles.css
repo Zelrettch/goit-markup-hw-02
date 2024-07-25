@@ -59,7 +59,6 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    text-transform: capitalize;
 }
 
 /* Button font */
@@ -110,6 +109,7 @@
 
 .team-section .element {
     background-color: #ffffff;
+    text-align: center;
 }
 
 /* Footer styles */
