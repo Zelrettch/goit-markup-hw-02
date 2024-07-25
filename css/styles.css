@@ -4,7 +4,7 @@
     background-color: #ffffff;
     size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .link {
@@ -37,7 +37,6 @@
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em;
     text-align: center;
 }
 
@@ -45,7 +44,6 @@
 .section-header {
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 0.02em;
     line-height: 1.11;
     text-align: center;
     color: #2E2F42;
@@ -57,7 +55,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
@@ -68,7 +65,6 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
-
 
 /* Header styles */
 
